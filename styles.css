@@ -1,9 +1,12 @@
+
 body, html{
   height:100%;
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-image: url("https://wallpaperaccess.com/full/1802092.jpg");
+background-repeat: no-repeat;
+background-size: cover;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -13,6 +16,10 @@ body, a:link, a:visited, a:active{
   padding:5px 12px;
   float:right;
 }
+.title, .addPopDancerButton{
+  padding:5px 24px;
+  float:right;
+}
 .topbar{
   height:32px;
   background-color: #555;
@@ -20,8 +27,22 @@ body, a:link, a:visited, a:active{
 .title{
   background-color: #777;
 }
-.dancer{
+.dancer {
   border:10px solid red;
   border-radius:10px;
   position:absolute;
+}
+.popDancer{
+
+  width: 500px;
+  height: 500px;
+  position:absolute;
+
+}
+
+.blinkyDancer {
+  width: 500px;
+  height: 500px;
+  position:absolute;
+
 }
