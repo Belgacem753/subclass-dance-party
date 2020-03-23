@@ -1,4 +1,4 @@
-
+/* Hey heni, ali has a problem with audio*/
 body, html{
   height:100%;
 }
@@ -18,6 +18,10 @@ body, a:link, a:visited, a:active{
 }
 .title, .addPopDancerButton{
   padding:5px 24px;
+  float:right;
+}
+.title, .lineUp{
+  padding:5px 28px;
   float:right;
 }
 .topbar{
